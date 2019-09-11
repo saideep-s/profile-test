@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+}
+/* Header styling */
+header{
+    /* position: fixed; */
+    background-color: rgb(0, 0, 0,0.8);
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+#logo{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+nav{
+    padding: 20px;
+    float:right;
+    font-size: 18px;
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+a,ul{
+    text-decoration: none;
+    color: #A8A8A8;
+    font-family: 'Belleza';font-size: 20px;
+}
+a:hover{
+    background-color:white;
+}
+
+/* Footer styling */
+footer{
+    background-color: rgb(0, 0, 0);
+    /* color: white; */
+    height: 130px;
+    text-decoration: none;
+    color: #A8A8A8;
+    font-family: 'Belleza';font-size: 16px;
+}
+footer p{
+    text-align: center;
+}
+#social-media, #copyright{
+    padding: 20px 0 0 0px;
+    text-align: center;
+    width: 400px;
+    margin: 0px auto;
+}
+
+/* Content styling HOME page */
+#home-section{
+    padding:70px 0px;
+    height: 600px;
+    width: 100%;
+    background-color:#E8E8E8;
+}
+#profile-picture{
+    padding: 30px;
+    width: 400px;
+    margin: 0px auto;
+}
+#profile-picture img{
+    width: 300px;
+    height: 300px;
+    border: solid 2px #F0F0F0;
+    border-radius: 50%;
+    box-shadow: #E0E0E0;
+}
+#profile-description{
+    padding: 50px;
+    width: 400px;
+    margin: 0px auto;
+    font-weight: 600;
+    font-family: 'Sofia';font-size: 22px;
+    color: 	#696969;
+}
+#quotes{
+    padding: 30px;
+    width: 500px;
+    margin: 0px auto;
+    font-weight: 600;
+    font-family: 'Sofia';font-size: 22px;
+    color: 	#696969;
+}
+/* Content styling of blog page */
+#blog-section{
+   padding: 70px;
+   /* background-color:#E8E8E8; */
+   background-color: white;
+}
+#blog-section h2, #blog-section h3{
+    text-align: center;
+    font-family: 'arial';
+}
+.blog-cards{
+    width: 800px;
+    height: 400px;
+    border-width: 0px 2px 2px 0px;
+    border-style: solid ;
+    border-color: #E8E8E8;
+    box-shadow: 2px 5px 5px #DCDCDC;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'arial';font-size: 18px;
+    color: 	#202020;
+}
+.blog-cards img{
+    width: 800px;
+    height: 200px;
+}
+.side-cards{
+    width: 200px;
+    height:auto;
+    border-width: 0px 2px 2px 0px;
+    border-style: solid ;
+    border-color: #E8E8E8;
+    box-shadow: 3px 5px 5px #DCDCDC;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'arial';font-size: 15px;
+    color: 		#202020;
+}
+.side-cards img{
+    width: 200px;
+    height: 100px;
+}
+.mini-blog img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 2px;
+}
+.mini-blog{
+    padding: 5px 0px 5px 0px;
+}
+.aside{
+    float: right;
+}
+.side-cards .title,.blog-cards .title{
+    font-weight: 600;
+}
+.side-cards .title-description, .blog-cards .title-description{
+    color: 	#505050;
+}
+.blog-cards button{
+    font-size:15px;
+    border: solid 1px #989898;
+    padding: 15px;
+    color: 	#282828;
+    background-color: white;
+}
+
+/* Content styling of resume page */
+#resume-section{
+    width: 100%;
+    height: 800px;
+    margin: 20px 0px 10px 0px;
+}
+.aside-cards{
+    float: left;
+    width: 300px;
+    height: auto;
+    clear: both;
+    border-width: 0px 3px 1px 0px;
+    border-style: solid;
+    border-color: 	white;
+    box-shadow: 5px 5px 10px 	#E8E8E8;
+    margin: 0px 50px 5px 60px;
+
+    /* fonts */
+    font-family: 'Belleza';font-size: 22px;
+    color: 	#696969;
+}
+.aside-cards .profile{
+    background-image: url("../resource/profile");
+    width: 300px;
+    height: 300px;
+}
+.profile h2{
+   position: relative;
+    bottom: -260px;
+}
+.progress-bar{
+    height: 10px;
+    width: 250px;
+    margin: 2px;
+    text-align: center;
+}
+.progress.js{
+    width: 60%;
+    background-color: grey;
+}
+.progress.html{
+    width: 70%;
+    background-color: grey;
+}
+.progress.css{
+    width: 40%;
+    background-color: grey;
+}
+.progress.sql{
+    width: 60%;
+    background-color: grey;
+}
+.progress.english{
+    width: 80%;
+    background-color: grey;
+}
+.progress.hindi{
+    width: 90%;
+    background-color: grey;
+}
+.progress.tamil{
+    width: 90%;
+    background-color: grey;
+}
+.progress.marathi{
+    width: 70%;
+    background-color: grey;
+}
+.cards{
+    width: 100%;
+    height: auto;
+    clear: right; 
+    border-width: 0px 3px 1px 0px;
+    border-style: solid;
+    border-color: 	white;
+    box-shadow: 5px 5px 10px 	#E8E8E8;
+    margin: 0px 0px 50px 0px;
+    /* fonts */
+    font-family: 'Bellaza';font-size: 22px;
+    color: 	#696969;
+}
+#resume-section i{
+    color: black;
+}
