@@ -6,39 +6,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel='shortcut icon' href='../resource/favicon.png' type='image/x-icon' />
     <title>Home</title>
 </head>
 <body>
+    <div class="home-responsive">
     <header id="home">
-        <a href="#home"><img id="logo" src="../resource/favicon.png" alt="Logo Image" title="Saideep Mannadiar"></a>
-        <nav>
-            <ul>
-                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                <li><a href="blog.html"><i class="fa fa-folder" aria-hidden="true"></i> Blog</a></li>
-                <li><a href="resume.html"><i class="fa fa-file" aria-hidden="true"></i> Resume</a></li>
-                <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
-            </ul>
-        </nav>
+            <nav class="navigation">
+                <img id="logo" src="../resource/favicon.png" alt="Logo" title="saideep">
+                <div class="menu">
+                <ul>
+                    <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="blog.html"><i class="fa fa-folder" aria-hidden="true"></i> Blog</a></li>
+                    <li><a href="resume.html"><i class="fa fa-file" aria-hidden="true"></i> Resume</a></li>
+                    <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
     </header>
     <section id="home-section">
-        <div id="profile-picture">
-            <img src="../resource/profile" alt="Profile picture" title="Saideep mannadiar">
-        </div>
-        <div id="profile-description">
+        <div class="profile-picture">
+            <img src="../resource/profile" alt="profile-picture" title="saideep">
+        </div><br>
+        <div class="profile-description">
             <blockquote>
                 Hi, I am Saideep mannadiar<br>
                 <cite>- - Trainee application engineer <i class="fa fa-heart-o" aria-hidden="true"></i></cite> 
             </blockquote>
-        </div>
-        <div id="quotes">
+        </div><br><br><br><br><br>
+        <div class="profile-moto">
             <blockquote>I believe... <br>
                 <cite>Optimism is the faith that leads to achievement.</cite>
             </blockquote>
         </div>
     </section>
-    <footer id="contact">
+</div>
+    <footer class="footer" id="contact">
         <p>Connect with me on social-media</p>
         <div id="social-media">
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -48,6 +52,7 @@
             <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         </div>
         <div id="copyright">Made with <i class="fa fa-heart-o" aria-hidden="true"></i> in India<br> Copyright <i class="fa fa-copyright" aria-hidden="true"> 2019 Saideep mannadiar</i></div>
+    
     </footer>
 </body>
 </html>

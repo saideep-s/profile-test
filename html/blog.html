@@ -5,27 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel='shortcut icon' href='../resource/favicon.png' type='image/x-icon' />
     <title>Blogs</title>
 </head>
-<body style="z-index:0;">
-    <header id="#blog">
-        <a href="#home"><img id="logo" src="../resource/favicon.png" alt="Logo Image" title="Saideep Mannadiar"></a>
-        <nav>
+<body>
+    <div class="blog-responsive">
+    <header id=blog>
+        <nav class="navigation">
+            <img id="logo" src="../resource/favicon.png" alt="Logo" title="saideep">
+            <div class="menu">
             <ul>
-                <li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                 <li><a href="#blog"><i class="fa fa-folder" aria-hidden="true"></i> Blog</a></li>
                 <li><a href="resume.html"><i class="fa fa-file" aria-hidden="true"></i> Resume</a></li>
                 <li><a href="#contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
-            </ul>
+                </ul>
+            </div>
         </nav>
     </header>
-
     <section id="blog-section">
-        <h2>My BLOG</h2>
-        <h3>Welcome to my blog</h3><br>
-        <div class="aside">
+        <div>
+            <h2>My BLOG</h2>
+        <h3>Welcome to my blog</h3>
+        </div>
+        <div class="blogs">
+            <div class="main-blog">
+    <div class="blog-cards">
+        <img src="../resource/technology1.jpg" alt="Blog1 image" title="Lorem ipsum">
+        <div class="title">Lorem ipsum</div><br>
+        <div class="title-description">Lorem ipsum, September, 2019</div>
+            <div class="blog-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia aliquid sunt! Quod veritatis aliquid totam earum repellat laboriosam possimus magnam voluptates. Quas excepturi cumque, quia accusamus neque ipsa dignissimos.
+                <br><button class="readMore" data-blog="blog1">Read more >></button>
+            </div>
+        </div>
+        <div class="blog-cards">
+            <img src="../resource/technology2.jpg" alt="Blog2 image" title="Lorem ipsum">
+            <div class="title">Lorem ipsum</div><br>
+                <div class="title-description">Lorem ipsum, September, 2019</div>
+                <div class="blog-content">
+                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia aliquid sunt! Quod veritatis aliquid totam earum repellat laboriosam possimus magnam voluptates. Quas excepturi cumque, quia accusamus neque ipsa dignissimos.
+                   <br><button class="readMore" data-blog="blog2">Read more >></button>
+                </div>
+        </div>
+        <div class="blog-cards">
+                <img src="../resource/blog3.jpeg" alt="Blog3 image" title="Lorem ipsum">
+                <div class="title">Lorem ipsum</div><br>
+                    <div class="title-description">Lorem ipsum, September, 2019</div>
+                    <div class="blog-content">
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia aliquid sunt! Quod veritatis aliquid totam earum repellat laboriosam possimus magnam voluptates. Quas excepturi cumque, quia accusamus neque ipsa dignissimos.
+                       <br><button class="readMore" data-blog="blog3">Read more >></button>
+                    </div>
+            </div>
+            </div>
+            <div class="aside">
                 <div class="side-cards">
                         <img src="../resource/profile" alt="Blog1 image" title="Lorem ipsum">
                         <div class="title">Saideep mannadiar</div>
@@ -66,37 +100,11 @@
                         </div>
                     </div>
             </div>
-    </div>
-    <div class="blog-cards">
-    <img src="../resource/technology1.jpg" alt="Blog1 image" title="Lorem ipsum">
-    <div class="title">Lorem ipsum</div><br>
-    <div class="title-description">Lorem ipsum, September, 2019</div>
-        <div class="blog-content">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia aliquid sunt! Quod veritatis aliquid totam earum repellat laboriosam possimus magnam voluptates. Quas excepturi cumque, quia accusamus neque ipsa dignissimos.
-            <br><button class="readMore" data-blog="blog1">Read more >></button>
         </div>
-    </div>
-    <div class="blog-cards">
-        <img src="../resource/technology2.jpg" alt="Blog2 image" title="Lorem ipsum">
-        <div class="title">Lorem ipsum</div><br>
-            <div class="title-description">Lorem ipsum, September, 2019</div>
-            <div class="blog-content">
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia aliquid sunt! Quod veritatis aliquid totam earum repellat laboriosam possimus magnam voluptates. Quas excepturi cumque, quia accusamus neque ipsa dignissimos.
-               <br><button class="readMore" data-blog="blog2">Read more >></button>
-            </div>
-    </div>
-    <div class="blog-cards">
-            <img src="../resource/blog3.jpeg" alt="Blog3 image" title="Lorem ipsum">
-            <div class="title">Lorem ipsum</div><br>
-                <div class="title-description">Lorem ipsum, September, 2019</div>
-                <div class="blog-content">
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia aliquid sunt! Quod veritatis aliquid totam earum repellat laboriosam possimus magnam voluptates. Quas excepturi cumque, quia accusamus neque ipsa dignissimos.
-                   <br><button class="readMore" data-blog="blog3">Read more >></button>
-                </div>
         </div>
     </section>
-
-    <footer id="contact">
+    </div>
+    <footer class="footer" id="contact">
         <p>Connect with me on social-media</p>
         <div id="social-media">
             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -108,5 +116,17 @@
         <div id="copyright">Made with <i class="fa fa-heart-o" aria-hidden="true"></i> in India<br> Copyright <i class="fa fa-copyright" aria-hidden="true"> 2019 Saideep mannadiar</i></div>
     </footer>
 </body>
-<script src="../src/script.js"></script>
+<script>
+    const readMore=(event)=>{
+        event.path[1].innerHTML=`Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis obcaecati odio atque illo magni perferendis eligendi neque totam voluptate maiores quod sed fuga voluptas corrupti accusamus, maxime quaerat officiis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi consectetur cum laudantium natus. Provident quam fugit illum tempore quia dolores distinctio, placeat nobis commodi, amet in veniam itaque odit Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto beatae aliquid consequuntur quaerat quae ad quia exercitationem totam, ullam soluta provident natus, suscipit voluptatem, molestias ratione similique quam consectetur sint!    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt cupiditate deserunt, deleniti quasi aliquam beatae maiores necessitatibus tempora fugit vero placeat inventore et eius, animi pariatur nemo ex repellendus repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis obcaecati odio atque illo magni perferendis eligendi neque totam voluptate maiores quod sed fuga voluptas corrupti accusamus, maxime quaerat officiis.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi consectetur cum laudantium natus. Provident quam fugit illum tempore quia dolores distinctio, placeat nobis commodi, amet in veniam itaque odit?    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto beatae aliquid consequuntur quaerat quae ad quia exercitationem totam, ullam soluta provident natus, suscipit voluptatem, molestias ratione similique quam consectetur sint!    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt cupiditate deserunt, deleniti quasi aliquam beatae maiores necessitatibus tempora fugit vero placeat inventore et eius, animi pariatur nemo ex repellendus repudiandae.<button class="collapse-readmore" onclick=showLess(event)>Show less<< </button>`
+    }
+    const showLess=(event)=>{
+        event.path[1].innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis obcaecati odio atque illo magni perferendis eligendi neque totam voluptate maiores quod sed fuga voluptas corrupti accusamus, maxime quaerat officiis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi consectetur cum laudantium natus. Provident quam fugit illum tempore quia dolores distinctio, placeat nobis commodi, amet in veniam itaque odit Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto beatae aliquid consequuntur quaerat quae ad quia exercitationem totam, ullam soluta provident natus, suscipit voluptatem, molestias ratione similique quam consectetur sint!  "
+    }
+    let buttons=document.getElementsByClassName('readMore')
+    buttons=Array.from(buttons)
+    buttons.forEach((e,i)=>{
+    buttons[i].addEventListener('click',readMore)
+    })
+</script>
 </html>
